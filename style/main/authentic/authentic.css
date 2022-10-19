@@ -1,0 +1,16 @@
+.authentic{
+    color: var(--dark__cyan);
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+}
+.authentic div{
+    width: 30%;
+}
+.authentic__title{
+    font-family: var(--poppin);
+}
+.authentic__image{
+    max-width: 550px;
+}

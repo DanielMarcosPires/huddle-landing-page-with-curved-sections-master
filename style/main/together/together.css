@@ -1,0 +1,23 @@
+.together{
+    background: var(--pale__blue);
+    color: var(--dark__cyan);
+    padding: 5em 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.together__title{
+    text-align: left;
+    font-family: var(--poppin);
+    margin: 0 auto;
+    width: 100%;
+}
+.together__text{
+    text-align: left;
+    font-family: var(--sans);
+    margin: 8px auto;
+    width: 400px;
+}
+.together__image{
+    max-width: 600px;
+}

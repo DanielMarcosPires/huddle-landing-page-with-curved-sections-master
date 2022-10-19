@@ -1,0 +1,24 @@
+.users__list{
+    color: var(--dark__cyan);
+    justify-content: space-between;
+    padding: 5em 0;
+    margin: 8px auto;
+    width: 50%;
+}
+.users__item{
+    color: var(--dark__cyan);
+    text-align: left;
+    margin: 0 16px;
+}
+.users__icon{
+    color: var(--pink);
+}
+.users__title{
+    font-family: var(--sans);
+    font-size: 50px;
+    font-weight: bold;
+}
+.users__info{
+    color: gray;
+    font-size: 18px;
+}

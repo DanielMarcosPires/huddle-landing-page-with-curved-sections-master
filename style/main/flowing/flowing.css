@@ -1,0 +1,21 @@
+.flowing{
+    align-items: center;
+    color: var(--dark__cyan);
+    padding: 5em 0;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+
+}
+.flowing__image{
+    max-width: 550px;
+}
+.flowing__title{
+    color: var(--dark__cyan);
+    margin: 9px 0;
+    font-family: var(--poppin);
+}
+.flowing__text{
+   
+    width: 500px;
+}

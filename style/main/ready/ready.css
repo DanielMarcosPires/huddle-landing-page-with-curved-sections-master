@@ -1,0 +1,22 @@
+.ready{
+    padding: 4em 0;
+}
+.ready__title{
+    font-family: var(--poppin);
+    font-size: 45px;
+}
+.ready__button{
+    background: var(--pink);
+    border: solid 2px var(--pink);
+    border-radius: 50px;
+    color: var(--pale__blue);
+    display: inline-block;
+    font-size: 25px;
+    padding: 0.5em 1em;
+    margin: 10px 0;
+    width: 400px;
+}
+.ready__button:hover{
+    background: #fff;
+    color: #000;
+}

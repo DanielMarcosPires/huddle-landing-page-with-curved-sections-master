@@ -1,0 +1,19 @@
+.header__config{
+    justify-content: space-between;
+    width: 90%;
+    margin: 2.5em auto;
+}
+.header__button{
+    color: var(--pink);
+    border: solid 2px;
+    border-color: var(--pink);
+    border-radius: 20px;
+    padding: 0.5em 13px;
+    text-decoration: none;
+}
+.header__button:hover{
+    background: var(--pink);
+    box-shadow: 0 0 calc(3px*3) 0 var(--light__pink);
+    color: white;
+    transition: 0.2s;
+}

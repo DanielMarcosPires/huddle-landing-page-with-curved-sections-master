@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&family=Poppins:wght@700&display=swap');
+
+@import url('../../style/header/header.css');
+@import url('../../style/main/community/community.css');
+@import url('../../style/main/users/users.css');
+@import url('../../style/main/together/together.css');
+@import url('../../style/main/flowing/flowing.css');
+@import url('../../style/main/authentic/authentic.css');
+@import url('../../style/main/ready/ready.css');
+
+@import url('../../style/footer/attribution.css');
+
+:root{
+    --pink:#ff52bf;
+    --light__pink:#ff8fd8;
+    --light__red:#ff4242;
+
+    --dark__cyan:#00252e;
+    --pale__blue:#f5faff;
+
+    --sans:'Open Sans', sans-serif;
+    --poppin: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
