@@ -18,6 +18,32 @@
     margin: 8px auto;
     width: 400px;
 }
+@media screen and (max-width:800px) {
+    .together{
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .together div{
+        width: 100%;
+        max-width: 400px;
+        margin:2em auto;
+        text-align: center;
+    }
+    .together__title{
+       text-align: center;
+    }
+    .together__text{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+}
 .together__image{
     max-width: 600px;
+    width: 100%;
+}
+@media screen and (max-width:800px){
+    .together__image{
+        min-width: 0;
+    }
 }

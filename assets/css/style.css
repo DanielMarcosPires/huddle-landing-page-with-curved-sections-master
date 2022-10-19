@@ -21,7 +21,9 @@
     --sans:'Open Sans', sans-serif;
     --poppin: 'Poppins', sans-serif;
 }
-
+body{
+ overflow-x: hidden;
+}
 li{
     list-style: none;
 }

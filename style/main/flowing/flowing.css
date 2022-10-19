@@ -8,6 +8,7 @@
 
 }
 .flowing__image{
+    width: 100%;
     max-width: 550px;
 }
 .flowing__title{
@@ -17,5 +18,17 @@
 }
 .flowing__text{
    
-    width: 500px;
+    width: 100%;
+}
+@media screen and (max-width:800px) {
+    .flowing{
+        flex-wrap: wrap;
+    }
+    .flowing div{
+        text-align: center;
+        width: 100%;
+    }
+    .flowing__text{
+
+    }
 }

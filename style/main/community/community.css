@@ -3,15 +3,29 @@
     font-family: var(--poppin);
     padding: 5em  0;
 }
+
 .community__title{
     color: var(--dark__cyan);
     font-size: 50px;
+    min-width: 360px;
+    padding: 0 8px;
+}
+@media screen and (max-width:800px) {
+    .community__title{
+        font-size: 30px;
+    }
 }
 .community__paragraph{
     color: var(--dark__cyan);
     font-family: var(--sans);
     margin: 0 auto;
     width: 50%;
+    min-width: 300px;
+}
+@media screen and (max-width:800px) {
+   .community__paragraph{
+    
+   }
 }
 .community__button{
     display: inline-block;

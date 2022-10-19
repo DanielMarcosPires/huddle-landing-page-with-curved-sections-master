@@ -6,11 +6,26 @@
     width: 80%;
 }
 .authentic div{
-    width: 30%;
+    width: 100%;
 }
 .authentic__title{
     font-family: var(--poppin);
 }
 .authentic__image{
+    width: 100%;
     max-width: 550px;
+}
+@media screen and (max-width:800px) {
+    .authentic{
+        flex-wrap: wrap;
+    }
+    .authentic div{
+        text-align: center;
+    }
+    .authentic__title{
+        padding: 0 8px;
+    }
+    .authentic__text{
+        min-width:300px ;
+    }
 }

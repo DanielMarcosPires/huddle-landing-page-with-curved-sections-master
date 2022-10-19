@@ -1,14 +1,27 @@
+.users__image{
+    width: 100%;
+    max-width: 900px;
+}
 .users__list{
-    color: var(--dark__cyan);
     justify-content: space-between;
-    padding: 5em 0;
-    margin: 8px auto;
-    width: 50%;
+   
 }
 .users__item{
-    color: var(--dark__cyan);
     text-align: left;
-    margin: 0 16px;
+    color: var(--dark__cyan);
+    padding: 5em 0;
+    margin: 8px auto;
+    width: 300px;
+}
+
+@media screen and (max-width:500px) {
+    .users__list{
+    flex-direction: column;
+    }
+    .users__item{
+        
+        text-align: center;
+    }
 }
 .users__icon{
     color: var(--pink);
